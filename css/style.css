@@ -10,15 +10,22 @@ header {
 
 h1 {
   font-size: 50px;
-  margin: 10px;
+  margin-top: 100px;
+  margin-bottom: 50px;
   text-align: center;
   color: #08d1d4;
+  padding: 5px;
+  border-style: groove;
+  border-width: 5px;
+  border-color: #272640;
+  border-radius: 25px; 
+
 }
 
 h2 {
   font-size: 25px;
   text-align: center;
-  margin: 15px;
+  margin: 30px;
   color: aquamarine;
   font-style: italic;
   font-style: bold;
@@ -34,22 +41,53 @@ h3{
 }
 nav {
   display: grid;
+  background-color: #6a67ad;
+  border-radius: 10px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+  border-style: groove;
+  border-width: 5px;
+  border-color:#006466;
+  border-radius: 25px;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
 
 main {
   background-color: #3E1F47;
   border-radius: 25px;
+  border-style: groove;
+  border-width: 5px;
+  border-color:#a656bd;
 }
 
 p {
   color: #a656bd;
+  text-align: center;
+  padding: 10px;
 }
 
 
 footer {
-  background-color: #272640
+  background-color: #272640;
   border-radius: 25px;   
   text-align: center;
+  margin-left: 500px;
+  margin-right: 500px;
+  margin-top: 15px;
+  padding-bottom: 15px;
+  border-style: groove;
+  border-width: 5px;
+  border-color: #006466;
+  border-radius: 25px; 
+
 }
 footer p{
   color: #6a67ad;
