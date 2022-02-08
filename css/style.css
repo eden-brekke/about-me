@@ -1,0 +1,99 @@
+body {
+  background-color: #312244;
+}
+
+header {
+  background-color: #006466;
+  border-radius: 25px;
+  border-color: #212F45;
+}
+
+h1 {
+  font-size: 50px;
+  margin: 10px;
+  text-align: center;
+  color: #08d1d4;
+}
+
+h2 {
+  font-size: 25px;
+  text-align: center;
+  margin: 15px;
+  color: aquamarine;
+  font-style: italic;
+  font-style: bold;
+
+}
+
+h3{
+ font-size: 22px; 
+ color: #d0d1ff;
+ margin: 10px;
+ text-align: center;
+
+}
+nav {
+  display: grid;
+}
+
+main {
+  background-color: #3E1F47;
+  border-radius: 25px;
+}
+
+p {
+  color: #a656bd;
+}
+
+
+footer {
+  background-color: #272640
+  border-radius: 25px;   
+  text-align: center;
+}
+footer p{
+  color: #6a67ad;
+  text-align: center;
+}
+
+li {
+  display: inline-block;
+  margin: 0 50px;
+  color:aquamarine;
+}
+
+li a{
+  text-align: center;
+  font-size: 24px;
+  padding: 15;
+  color: aquamarine;
+}
+
+a {
+  color:aliceblue
+}
+a:hover {
+  background-color: #c21b77;
+}
+
+li a:hover {
+  background-color: #c21b77;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  text-align: center;
+}
+
+#schools {
+  text-align: left;
+  font-size: 15px;
+}
+
+#schoolhead {
+  font-size: 18px;
+  font-style: oblique;
+}
