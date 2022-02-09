@@ -29,7 +29,7 @@ let answerThree = prompt('Am I a good cook?').toLowerCase();
 
 if (answerThree === 'yes' || answerThree === 'y') {
   alert('Yes! At least my partner thinks so!');
-  console.log('They answered ' + answerThree + ' They think I\'m a good cook!');
+  // console.log('They answered ' + answerThree + ' They think I\'m a good cook!');
 } else if (answerThree === 'no' || answerThree === 'n') {
   alert('Aw rude, I guess maybe not? My partner thinks I am');
   // console.log('They answered ' + answerThree + ' very rude, they don\'t think I\'m a good cook.');
@@ -44,7 +44,7 @@ if (answerFour === 'yes' || answerFour === 'y') {
   // console.log('They answered ' + answerFour + ' Correct! I love art!');
 } else if (answerFour === 'no' || answerFour === 'n') {
   alert('Incorrect! I love art!');
-  console.log('They answered ' + answerFour + ' which is incorrect I love art');
+  // console.log('They answered ' + answerFour + ' which is incorrect I love art');
 }
 
 let answerFive = prompt('Do I run marathons?').toLowerCase();
