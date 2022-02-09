@@ -10,7 +10,7 @@ let answerOne = prompt('Am I an aniaml person?').toLowerCase();
 if(answerOne === 'yes' || answerOne === 'y'){
   alert('Yes I love all animals!');
   //console.log('They answered ' + answerOne + ' which is correct! I do love animals');
-} else if(answerOne === 'no' || answerOne === 'n');{
+} else if(answerOne === 'no' || answerOne === 'n'){
   alert('Sorry, I love all animals!');
   //console.log('They answered ' + answerOne + ' which is wrong, I love animals');
 }
