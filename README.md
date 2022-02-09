@@ -6,7 +6,7 @@ Creating a website about me, with a simple prompt driven JavaScript guessing gam
 
  <br>
 
-Author: Eden with Help from Taneesha 
+Author: Eden with Help from Tanesha 
  <br>
 
 Links and Resources <br>
@@ -46,6 +46,9 @@ The Unresolved Issues: (Now Resolved!!) 
 
 ## LAB - 3
 About me- Extending the about me page!
+
+Links and Resources: Got help from Audrey, got help from Alexander (TA)
+
 Adding in 
 “Top Ten” at the bottom of your HTML page as an ordered list in HTML. 
 
