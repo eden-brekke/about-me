@@ -20,16 +20,19 @@ function qOne() {
 }
 qOne();
 
-let answerTwo = prompt('Do I have a dog?').toLowerCase();
+function qTwo() {
+  let answerTwo = prompt('Do I have a dog?').toLowerCase();
 
-if (answerTwo === 'yes' || answerTwo === 'y') {
-  alert('Sorry! I don\'t have any dogs!');
-  // console.log('They answered ' + answerTwo + ' which is incorrect, I don\'t have any dogs!');
-} else if (answerTwo === 'no' || answerTwo === 'n') {
-  ansCounter++;
-  alert('Correct! I don\'t have a dog, a little sad.');
-  //console.log('They answered ' + answerTwo + ' which is correct, I don\' have a dog.');
+  if (answerTwo === 'yes' || answerTwo === 'y') {
+    alert('Sorry! I don\'t have any dogs!');
+    // console.log('They answered ' + answerTwo + ' which is incorrect, I don\'t have any dogs!');
+  } else if (answerTwo === 'no' || answerTwo === 'n') {
+    ansCounter++;
+    alert('Correct! I don\'t have a dog, a little sad.');
+    //console.log('They answered ' + answerTwo + ' which is correct, I don\' have a dog.');
+  }
 }
+qTwo();
 
 let answerThree = prompt('Am I a good cook?').toLowerCase();
 
