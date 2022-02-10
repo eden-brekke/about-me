@@ -93,7 +93,7 @@ while (guessAttempts <= 4 || userGuess !== 5) {
   }
 }
 
-alert(`Nice so far you've gotten ${ansCounter} out of 6 correct! How about one more game!`);
+alert(`Nice job so far ${userName} you've gotten ${ansCounter} out of 6 correct! How about one more game!`);
 
 let sports = ['basketball', 'soccer', 'climbing', 'skating', 'ultimate frisbee', 'swimming'];
 for(let i = 0; i <=6; i++){
@@ -110,4 +110,4 @@ for(let i = 0; i <=6; i++){
 }
 alert(`I really enjoy ${sports}`);
 
-alert(`Good Job! In total you got ${ansCounter} out of 7 answers correct! Now that you've endured all of those prompts and alerts. Enjoy my website!`);
+alert(`Good Job ${userName}! In total you got ${ansCounter} out of 7 answers correct! Now that you've endured all of those prompts and alerts. Enjoy my website!`);
