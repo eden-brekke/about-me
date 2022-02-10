@@ -6,17 +6,19 @@ let ansCounter = 0;
 let userName = prompt('What is your name?');
 alert('Welcome ' + userName + ' please play my guessing game!');
 
+function qOne() {
+  let answerOne = prompt('Am I an aniaml person?').toLowerCase();
 
-let answerOne = prompt('Am I an aniaml person?').toLowerCase();
-
-if (answerOne === 'yes' || answerOne === 'y') {
-  ansCounter++;
-  alert('Yes I love all animals!');
-  //console.log('They answered ' + answerOne + ' which is correct! I do love animals');
-} else if (answerOne === 'no' || answerOne === 'n') {
-  alert('Sorry, I love all animals!');
-  //console.log('They answered ' + answerOne + ' which is wrong, I love animals');
+  if (answerOne === 'yes' || answerOne === 'y') {
+    ansCounter++;
+    alert('Yes I love all animals!');
+    //console.log('They answered ' + answerOne + ' which is correct! I do love animals');
+  } else if (answerOne === 'no' || answerOne === 'n') {
+    alert('Sorry, I love all animals!');
+    //console.log('They answered ' + answerOne + ' which is wrong, I love animals');
+  }
 }
+qOne();
 
 let answerTwo = prompt('Do I have a dog?').toLowerCase();
 
@@ -125,13 +127,13 @@ while (guessAttempts) {
 alert(`Nice job so far ${userName} you've gotten ${ansCounter} out of 6 correct! How about one more game!`);
 
 let sports = ['basketball', 'soccer', 'climbing', 'skating', 'ultimate frisbee', 'swimming'];
-for(let i = 0; i <=6; i++){
+for (let i = 0; i <= 6; i++) {
   let questionSeven = prompt('Which sports have I participated in? There are six possible answers and you have six attempts to guess one!').toLowerCase();
   console.log(questionSeven);
-  if(sports[0] === questionSeven || sports[1] === questionSeven || sports[2] === questionSeven|| sports[3] === questionSeven|| sports[4] === questionSeven|| sports[5] === questionSeven){
+  if (sports[0] === questionSeven || sports[1] === questionSeven || sports[2] === questionSeven || sports[3] === questionSeven || sports[4] === questionSeven || sports[5] === questionSeven) {
     alert(`Heck ye! I love ${questionSeven}!`);
     ansCounter++;
-    i=6;
+    i = 6;
   } else {
     alert('Sorry no, try again');
     i++;
