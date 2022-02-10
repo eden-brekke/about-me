@@ -64,7 +64,7 @@ if (answerFive === 'yes' || answerFive === 'y') {
   //console.log('They answered ' + answerFive + ' which is correct! I don\'t run marathons!');
 }
 
-alert(`Thanks ${userName} for playing my learning a little about me! You got ${ansCounter} out of 5 correct! Here's a little number game!`);
+alert(`Thanks ${userName} for playing my little about me guessing game! You got ${ansCounter} out of 5 correct! Here's a quick number guessing game!`);
 
 // let numberGame = prompt('I\'m thinking of a number between 1 and 10');
 let correctNum = 5;
