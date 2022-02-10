@@ -47,7 +47,7 @@ The Unresolved Issues: (Now Resolved!!) 
 ## LAB - 3
 About me- Extending the about me page!
 
-Links and Resources: Got help from Audrey, got help from Alexander (TA)
+Links and Resources: Got help from Audrey, got help from Alexander (TA), and got help from Tai periodically.
 
 Adding in 
 “Top Ten” at the bottom of your HTML page as an ordered list in HTML. 
