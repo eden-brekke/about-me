@@ -49,16 +49,19 @@ function qThree() {
 }
 qThree();
 
-let answerFour = prompt('Do I like to create art?').toLowerCase();
+function qFour() {
+  let answerFour = prompt('Do I like to create art?').toLowerCase();
 
-if (answerFour === 'yes' || answerFour === 'y') {
-  ansCounter++;
-  alert('I think that everyone creates art in their own way! Yes I love art!');
-  // console.log('They answered ' + answerFour + ' Correct! I love art!');
-} else if (answerFour === 'no' || answerFour === 'n') {
-  alert('Incorrect! I love art!');
-  // console.log('They answered ' + answerFour + ' which is incorrect I love art');
+  if (answerFour === 'yes' || answerFour === 'y') {
+    ansCounter++;
+    alert('I think that everyone creates art in their own way! Yes I love art!');
+    // console.log('They answered ' + answerFour + ' Correct! I love art!');
+  } else if (answerFour === 'no' || answerFour === 'n') {
+    alert('Incorrect! I love art!');
+    // console.log('They answered ' + answerFour + ' which is incorrect I love art');
+  }
 }
+qFour();
 
 let answerFive = prompt('Do I run marathons?').toLowerCase();
 
