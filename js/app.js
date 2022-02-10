@@ -63,16 +63,19 @@ function qFour() {
 }
 qFour();
 
-let answerFive = prompt('Do I run marathons?').toLowerCase();
+function qFive() {
+  let answerFive = prompt('Do I run marathons?').toLowerCase();
 
-if (answerFive === 'yes' || answerFive === 'y') {
-  alert('Haha you funny, heck no! I wish I had that dedication');
-  // console.log('they answered ' + answerFive + ' which is wrong, I don\'t run marathons');
-} else if (answerFive === 'no' || answerFive === 'n') {
-  ansCounter++;
-  alert('Correct! I wish I had that dedication to health!');
-  //console.log('They answered ' + answerFive + ' which is correct! I don\'t run marathons!');
+  if (answerFive === 'yes' || answerFive === 'y') {
+    alert('Haha you funny, heck no! I wish I had that dedication');
+    // console.log('they answered ' + answerFive + ' which is wrong, I don\'t run marathons');
+  } else if (answerFive === 'no' || answerFive === 'n') {
+    ansCounter++;
+    alert('Correct! I wish I had that dedication to health!');
+    //console.log('They answered ' + answerFive + ' which is correct! I don\'t run marathons!');
+  }
 }
+qFive();
 
 alert(`Thanks ${userName} for playing my little about me guessing game! You got ${ansCounter} out of 5 correct! Here's a quick number guessing game!`);
 
