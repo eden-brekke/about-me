@@ -66,32 +66,61 @@ if (answerFive === 'yes' || answerFive === 'y') {
 
 alert(`Thanks ${userName} for playing my little about me guessing game! You got ${ansCounter} out of 5 correct! Here's a quick number guessing game!`);
 
+// I first tried to increment up my guess attempts to 4 but that causes some issues: I've changed it so it decrements. this still kind of doesn't work because it prompts when you have 0 guesses left haha. 
 // let numberGame = prompt('I\'m thinking of a number between 1 and 10');
+// let correctNum = 5;
+// let guessAttempts = 0;
+// let userGuess = +prompt('I\'m thinking of a number between 1 and 10, you have 4 tries!');
+
+// while (guessAttempts < 4 || userGuess !== correctNum) {
+//   if (userGuess > correctNum) {
+//     alert('That\'s not correct. You guessed too high');
+//     console.log(`user guessed ${userGuess}`);
+//     guessAttempts++;
+//     userGuess = +prompt(`You are at ${guessAttempts} guesses, try again!`);
+//   } else if (userGuess < correctNum && guessAttempts < correctNum) {
+//     alert('That\'s not correct. You guessed too low');
+//     console.log(`user guessed ${userGuess}`);
+//     guessAttempts++;
+//     userGuess = +prompt(`You are at ${guessAttempts} guesses, try again!`);
+//   } else if (userGuess === correctNum) {
+//     alert('You got it! I was thinking of the number 5!');
+//     ansCounter++;
+//     console.log(`They guessed the correct number ${userGuess}`);
+//     break;
+//   } else {
+//     alert('Sorry you ran out of attempts! it was the number 5!');
+//     break;
+//   }
+// }
+
+//let numberGame = prompt('I\'m thinking of a number between 1 and 10');
 let correctNum = 5;
-let guessAttempts = 0;
+let guessAttempts = 4;
 let userGuess = +prompt('I\'m thinking of a number between 1 and 10, you have 4 tries!');
 
-while (guessAttempts <= 4 || userGuess !== 5) {
-  if (userGuess > 5) {
+while (guessAttempts) {
+  if (userGuess > correctNum) {
     alert('That\'s not correct. You guessed too high');
     console.log(`user guessed ${userGuess}`);
-    guessAttempts++;
-    userGuess = +prompt(`You are at ${guessAttempts} guesses, try again!`);
-  } else if (userGuess < 5 && guessAttempts < 4) {
+    guessAttempts--;
+    userGuess = +prompt(`You have ${guessAttempts} guesses left, try again!`);
+  } else if (userGuess < correctNum && guessAttempts < correctNum) {
     alert('That\'s not correct. You guessed too low');
     console.log(`user guessed ${userGuess}`);
-    guessAttempts++;
-    userGuess = +prompt(`You are at ${guessAttempts} guesses, try again!`);
+    guessAttempts--;
+    userGuess = +prompt(`You have ${guessAttempts} guesses left, try again!`);
   } else if (userGuess === correctNum) {
     alert('You got it! I was thinking of the number 5!');
     ansCounter++;
     console.log(`They guessed the correct number ${userGuess}`);
     break;
-  } else if (guessAttempts >= 4) {
+  } else {
     alert('Sorry you ran out of attempts! it was the number 5!');
     break;
   }
 }
+
 
 alert(`Nice job so far ${userName} you've gotten ${ansCounter} out of 6 correct! How about one more game!`);
 
