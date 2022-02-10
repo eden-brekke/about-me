@@ -66,7 +66,7 @@ if (answerFive === 'yes' || answerFive === 'y') {
 
 alert(`Thanks ${userName} for playing my little about me guessing game! You got ${ansCounter} out of 5 correct! Here's a quick number guessing game!`);
 
-// I first tried to increment up my guess attempts to 4 but that causes some issues: I've changed it so it decrements. this still kind of doesn't work because it prompts when you have 0 guesses left haha. 
+// I first tried to increment up my guess attempts to 4 but that causes some issues: I've changed it so it decrements. this still kind of doesn't work because it prompts when you have 0 guesses left haha.
 // let numberGame = prompt('I\'m thinking of a number between 1 and 10');
 // let correctNum = 5;
 // let guessAttempts = 0;
