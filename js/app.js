@@ -80,11 +80,11 @@ while (guessAttempts <= 4 || userGuess !== 5) {
   } else if (userGuess < 5 && guessAttempts < 4) {
     alert('That\'s not correct. You guessed too low');
     console.log(`user guessed ${userGuess}`);
-    guessAttempts = guessAttempts++;
+    guessAttempts++;
     userGuess = +prompt(`You are at ${guessAttempts} guesses, try again!`);
   } else if (userGuess === correctNum) {
     alert('You got it! I was thinking of the number 5!');
-    ansCounter = ansCounter++;
+    ansCounter++;
     console.log(`They guessed the correct number ${userGuess}`);
     break;
   } else if (guessAttempts >= 4) {
@@ -103,6 +103,9 @@ for(let i = 0; i <=6; i++){
     alert(`Heck ye! I love ${questionSeven}!`);
     ansCounter++;
     i=6;
+  } else {
+    alert('Sorry no, try again');
+    i++;
   }
 }
 alert(`I really enjoy ${sports}`);
