@@ -88,7 +88,7 @@ while (guessAttempts <= 4 || userGuess !== 5) {
     console.log(`They guessed the correct number ${userGuess}`);
     break;
   } else if (guessAttempts >= 4) {
-    alert('Sorry you ran out of attempts!');
+    alert('Sorry you ran out of attempts! it was the number 5!');
     break;
   }
 }
