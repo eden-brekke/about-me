@@ -109,7 +109,7 @@ alert(`Thanks ${userName} for playing my little about me guessing game! You got 
 
 //let numberGame = prompt('I\'m thinking of a number between 1 and 10');
 
-function qSix(){
+function qSix() {
   let correctNum = 5;
   let guessAttempts = 4;
   let userGuess = +prompt('I\'m thinking of a number between 1 and 10, you have 4 tries!');
@@ -140,19 +140,22 @@ qSix();
 
 alert(`Nice job so far ${userName} you've gotten ${ansCounter} out of 6 correct! How about one more game!`);
 
-let sports = ['basketball', 'soccer', 'climbing', 'skating', 'ultimate frisbee', 'swimming'];
-for (let i = 0; i <= 6; i++) {
-  let questionSeven = prompt('Which sports have I participated in? There are six possible answers and you have six attempts to guess one!').toLowerCase();
-  console.log(questionSeven);
-  if (sports[0] === questionSeven || sports[1] === questionSeven || sports[2] === questionSeven || sports[3] === questionSeven || sports[4] === questionSeven || sports[5] === questionSeven) {
-    alert(`Heck ye! I love ${questionSeven}!`);
-    ansCounter++;
-    i = 6;
-  } else {
-    alert('Sorry no, try again');
-    i++;
+function qSeven() {
+  let sports = ['basketball', 'soccer', 'climbing', 'skating', 'ultimate frisbee', 'swimming'];
+  for (let i = 0; i <= 6; i++) {
+    let questionSeven = prompt('Which sports have I participated in? There are six possible answers and you have six attempts to guess one!').toLowerCase();
+    console.log(questionSeven);
+    if (sports[0] === questionSeven || sports[1] === questionSeven || sports[2] === questionSeven || sports[3] === questionSeven || sports[4] === questionSeven || sports[5] === questionSeven) {
+      alert(`Heck ye! I love ${questionSeven}!`);
+      ansCounter++;
+      i = 6;
+    } else {
+      alert('Sorry no, try again');
+      i++;
+    }
   }
+  alert(`I really enjoy ${sports}`);
 }
-alert(`I really enjoy ${sports}`);
+qSeven();
 
 alert(`Good Job ${userName}! In total you got ${ansCounter} out of 7 answers correct! Now that you've endured all of those prompts and alerts. Enjoy my website!`);
