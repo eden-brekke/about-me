@@ -1,5 +1,6 @@
 body {
   background-color: #312244;
+  width: auto;
 }
 
 header {
@@ -72,6 +73,7 @@ p {
   color: #a656bd;
   text-align: center;
   padding: 10px;
+  width: auto;
 }
 
 
@@ -112,6 +114,7 @@ ol {
 
 #games{
   text-align:left;
+  width: auto;
 }
 
 li a{
@@ -170,6 +173,18 @@ ul {
   border-style: solid;
 }
 
+#gameList{
+  text-align: left;
+  background-color:#6a67ad;
+  margin: 0;
+  border-radius: 50px;
+  width: 500px;
+  align-content: center;
+  border-width: 2px;
+  border-color:#212F45;
+  border-style: solid;
+}
+
 #schoolList, #schoolhead{
   float: inline-start;
 }
@@ -177,7 +192,7 @@ ul {
   float: inline-end;
   text-align: left; 
   background-color: #212F45;
-  width: max-content;
+  width: auto;
   border-width: 2px;
   border-color:#6a67ad;
   border-style:solid;
