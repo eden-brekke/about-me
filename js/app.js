@@ -71,27 +71,40 @@ let correctNum = 5;
 let guessAttempts = 0;
 let userGuess = +prompt('I\'m thinking of a number between 1 and 10, you have 4 tries!');
 
-while(guessAttempts <= 4 || userGuess !== 5){
-  if(userGuess > 5 ){
+while (guessAttempts <= 4 || userGuess !== 5) {
+  if (userGuess > 5) {
     alert('That\'s not correct. You guessed too high');
     console.log(`user guessed ${userGuess}`);
     guessAttempts++;
     userGuess = +prompt(`You are at ${guessAttempts} guesses, try again!`);
-  } else if(userGuess < 5 && guessAttempts < 4){
+  } else if (userGuess < 5 && guessAttempts < 4) {
     alert('That\'s not correct. You guessed too low');
     console.log(`user guessed ${userGuess}`);
-    guessAttempts++;
+    guessAttempts = guessAttempts++;
     userGuess = +prompt(`You are at ${guessAttempts} guesses, try again!`);
-  } else if(userGuess === correctNum){
+  } else if (userGuess === correctNum) {
     alert('You got it! I was thinking of the number 5!');
+    ansCounter = ansCounter++;
     console.log(`They guessed the correct number ${userGuess}`);
     break;
-  } else if(guessAttempts >= 4){
+  } else if (guessAttempts >= 4) {
     alert('Sorry you ran out of attempts!');
     break;
   }
 }
 
+alert(`Nice so far you've gotten ${ansCounter} out of 6 correct! How about one more game!`);
 
-// questionSeven = 
+let sports = ['basketball', 'soccer', 'climbing', 'skating', 'ultimate frisbee', 'swimming'];
+for(let i = 0; i <=6; i++){
+  let questionSeven = prompt('Which sports have I participated in? There are six possible answers and you have six attempts to guess one!').toLowerCase();
+  console.log(questionSeven);
+  if(sports[0] === questionSeven || sports[1] === questionSeven || sports[2] === questionSeven|| sports[3] === questionSeven|| sports[4] === questionSeven|| sports[5] === questionSeven){
+    alert(`Heck ye! I love ${questionSeven}!`);
+    ansCounter++;
+    i=6;
+  }
+}
+alert(`I really enjoy ${sports}`);
 
+alert(`Good Job! In total you got ${ansCounter} out of 7 answers correct! Now that you've endured all of those prompts and alerts. Enjoy my website!`);
