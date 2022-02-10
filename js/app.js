@@ -34,18 +34,20 @@ function qTwo() {
 }
 qTwo();
 
-let answerThree = prompt('Am I a good cook?').toLowerCase();
+function qThree() {
+  let answerThree = prompt('Am I a good cook?').toLowerCase();
 
-if (answerThree === 'yes' || answerThree === 'y') {
-  ansCounter++;
-  alert('Yes! At least my partner thinks so!');
-  // console.log('They answered ' + answerThree + ' They think I\'m a good cook!');
-} else if (answerThree === 'no' || answerThree === 'n') {
-  alert('Aw rude, I guess maybe not? My partner thinks I am');
-  // console.log('They answered ' + answerThree + ' very rude, they don\'t think I\'m a good cook.');
+  if (answerThree === 'yes' || answerThree === 'y') {
+    ansCounter++;
+    alert('Yes! At least my partner thinks so!');
+    // console.log('They answered ' + answerThree + ' They think I\'m a good cook!');
+  } else if (answerThree === 'no' || answerThree === 'n') {
+    alert('Aw rude, I guess maybe not? My partner thinks I am');
+    // console.log('They answered ' + answerThree + ' very rude, they don\'t think I\'m a good cook.');
 
+  }
 }
-
+qThree();
 
 let answerFour = prompt('Do I like to create art?').toLowerCase();
 
