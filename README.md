@@ -70,3 +70,8 @@ Keep track of the total number of correct answers. At the end tell them how many
 
 Unresolved issue:
 in my guessing number game: does not correctly add to ansCounter if the user guesses correctly
+
+Reflection:
+How did this go, overall? *I'm still crying, this has been a test of will and determination. It is rewarding when you finally get the code to work though. I wouldn't trade the learning experiences.* 
+What observations or questions do you have about what you’ve learned so far? *CSS is really finnicky, and JS can be too, if you're missing any paraenthesis or semicolons it can make your code not work even though it seems like everything should be working. I missed a bracket that put me into an infinite loop and it took me a while to figure out why!*
+How long did it take you to complete this assignment? And, before you started, how long did you think it would take you to complete this assignment? *Six hours, I thought it would take me that long when I started, I'm glad I didn't overshoot by too much!*
