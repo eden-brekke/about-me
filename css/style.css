@@ -69,11 +69,64 @@ main {
   border-color:#a656bd;
 }
 
+#bioArticle {
+  display: inline-block;
+}
+article {
+  width: 80%;
+}
+figure {
+  width: 50%;
+  padding: 25px;
+  margin-top: 50px;
+  display: inline-block;
+}
+
+figcaption {
+  width: max-content;
+  background-color:#a656bd;
+  border-radius: 10px;
+  border-style: solid;
+  border-width: 3px;
+  border-color:#312244;
+  color:#08d1d4;
+  text-align: center;
+}
+
+img {
+  max-width: 100%;
+  max-height: 100%;
+  border-width: 3px;
+  border-color:#c21b77;
+  border-style:groove;
+  border-radius: 10px;
+}
+
+#eden {
+  padding: 10px;
+  margin: 15px;
+}
+#pumpkin {
+  width: 30%;
+  height: 30%;
+  padding: 10px;
+  margin: 15px;
+}
+#jack {
+  width: 10%;
+  height: 10%;
+  padding: 10px;
+  margin: 15px;
+}
+
 p {
+  display: inline-block;
   color: #a656bd;
   text-align: center;
   padding: 10px;
   width: auto;
+  font-family:'Times New Roman', Times, serif;
+  font-size: 1vw;
 }
 
 
