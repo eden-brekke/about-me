@@ -7,7 +7,7 @@
   <link rel="stylesheet" href="css/style.css">
 </head>
 <header>
-  <h1> About me - a Guessing Game</h1>
+  <h1> About me - feat. 'A Guessing Game'</h1>
 </header>
 
 <body>
@@ -21,7 +21,10 @@
     </ul>
   </nav>
   <main>
-
+    <form id="guessingGameButton">
+      <input type = "button" value = "Click here For a Guessing Game" onclick = "guessingGame();">
+      </input>
+      </form>
     <article id="bioArticle">
       <h2 id="bio">Biography</h2>
       <p id="bioP">Hello! My name is Eden! I'm a mostly introverted person, but if you get me onto a topic I know a lot
@@ -37,18 +40,20 @@
         Jack the
         Third, often try to help us with the remodel, they're an essential part of the team. </p>
 
-        <figure id="eden">
-          <img src="img/20220115_141925_25.jpg" alt="A picture of the Author" title="It's me!">
-          <figcaption>That's me! Eden. The Author.</figcaption>
-        </figure>
-        <figure id="pumpkin">
-          <img src="img/116723351_925563574617196_5187706943599248947_n.jpg" alt="A picture of Pumpkin Pie McSassypants" title="beautiful baby kitty">
-          <figcaption>Happy Pumpkin Kitty</figcaption>
-        </figure>
-        <figure id="Jack">
-          <img src="img/198196582_1005344403340076_2854095839093548743_n.jpg" alt="A picture of Monterey Jack the third" title="Such a happy kitty">
-          <figcaption>A good Jack</figcaption>
-        </figure>
+      <figure id="eden">
+        <img src="img/20220115_141925_25.jpg" alt="A picture of the Author" title="It's me!">
+        <figcaption>That's me! Eden. The Author.</figcaption>
+      </figure>
+      <figure id="pumpkin">
+        <img src="img/116723351_925563574617196_5187706943599248947_n.jpg" alt="A picture of Pumpkin Pie McSassypants"
+          title="beautiful baby kitty">
+        <figcaption>Happy Pumpkin Kitty</figcaption>
+      </figure>
+      <figure id="Jack">
+        <img src="img/198196582_1005344403340076_2854095839093548743_n.jpg" alt="A picture of Monterey Jack the third"
+          title="Such a happy kitty">
+        <figcaption>A good Jack</figcaption>
+      </figure>
     </article>
 
     <article id="eduArticle">
@@ -140,24 +145,27 @@
   </main>
 
   <article id="gameArticle">
-  <h2 id="games"> Eden's Top 10 Favorite Video Games</h2>
-  <ol id="gameList">
-    <li> Final Fantasy 14: A Realm Reborn </li>
-    <li> Silent Hill 2(and 1 and 3)</li>
-    <li> Legend of Zelda (Any and all Installments but Majora's Mask is favorite)</li>
-    <li> Kingdom Hearts(Series)</li>
-    <li> Animal Crossing(Series)</li>
-    <li> To the Moon</li>
-    <li> Ori and the Will of the Wisps</li>
-    <li> Hollow Knight</li>
-    <li> Undertale</li>
-    <li> Overwatch (Except blizzard is a bad company)</li>
-  </ol>
-  <figure>
-    <img src="img/051.png" alt="Picture of the Peppers: FFXIV Credits to Square Enix" title="FFXIV Credits to Square Enix">
-    <figcaption>Picture of Some Peppers in FFXIV by Square Enix</figcaption>
-  </figure>
-</article>
+    <div id="games">
+      <h2> Eden's Top 10 Favorite Video Games</h2>
+      <ol id="gameList">
+        <li> Final Fantasy 14: A Realm Reborn </li>
+        <li> Silent Hill 2(and 1 and 3)</li>
+        <li> Legend of Zelda (Any and all Installments but Majora's Mask is favorite)</li>
+        <li> Kingdom Hearts(Series)</li>
+        <li> Animal Crossing(Series)</li>
+        <li> To the Moon</li>
+        <li> Ori and the Will of the Wisps</li>
+        <li> Hollow Knight</li>
+        <li> Undertale</li>
+        <li> Overwatch (Except blizzard is a bad company)</li>
+      </ol>
+    </div>
+    <figure id="gameFig">
+      <img src="img/051.png" alt="Picture of the Peppers: FFXIV Credits to Square Enix"
+        title="FFXIV Credits to Square Enix">
+      <figcaption>Picture of Some Peppers in FFXIV by Square Enix</figcaption>
+    </figure>
+  </article>
   <script src="js/app.js"></script>
 
 </body>
