@@ -8,7 +8,7 @@ function guessingGame(){
 
   //question One
   function qOne() {
-    let answerOne = prompt('Am I an aniaml person?').toLowerCase().trim();
+    let answerOne = prompt('Am I an animal person?').toLowerCase().trim();
 
     if (answerOne === 'yes' || answerOne === 'y') {
       ansCounter++;
